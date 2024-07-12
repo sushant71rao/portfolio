@@ -1,10 +1,11 @@
 "use client";
+import { cn } from "@/utils/cn";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
 const Photo = () => {
   return (
-    <div className="h-full hidden xl:block scale-75 w-full relative">
+    <div className={cn("hidden xl:block scale-[80%] h-full w-full relative")}>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{
@@ -26,7 +27,7 @@ const Photo = () => {
             quality={100}
             fill
             alt="self"
-            className="object-contain rounded-full"
+            className="object-contain mix-blend-lighten rounded-full"
           />
         </motion.div>
         <motion.svg

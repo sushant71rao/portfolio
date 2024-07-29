@@ -108,7 +108,7 @@ export const BentoGridItem = ({
             {title}
           </div>
           {id == 2 && <GlobeDemo></GlobeDemo>}
-          {id == 3 && (
+          {id == 5 && (
             <>
               <InfiniteMovingCards
                 speed="slow"

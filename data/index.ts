@@ -29,12 +29,12 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My Tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
+    title: "",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2 min-h-[12.5rem]",
+    imgClassName: " pt-[7px] md:pl-4",
     titleClassName: "justify-center",
-    img: "",
+    img: "https://github-readme-stats.vercel.app/api?username=sushant71rao&show_icons=true&theme=transparent&hide_border=true&title_color=ffffff&text_color=cbacf9&text_bold=true",
     spareImg: "",
   },
   {
@@ -47,15 +47,14 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently Exploring More Technologies",
-    description: "The Inside Scoop",
+    title: "My Tech stack",
     className: "md:col-span-3 md:row-span-2",
+    description: "I constantly try to improve",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "",
     spareImg: "/grid.svg",
   },
   {
